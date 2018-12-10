@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Show docker alias commands
-alias dka='cat ~/Dev/docker/.docker_aliases | grep alias'
+alias dka='cat ~/Dev/docker/docker-settings/.docker_aliases | grep alias'
 
 
 alias dm='docker-machine'
@@ -27,7 +27,7 @@ alias dkcbld='docker-compose build'
 alias dkcst='docker-compose stop'
 alias dkcl='docker-compose logs'
 
-alias dkalias='vim ~/Dev/docker/.docker_aliases'
+alias dkalias='vim ~/Dev/docker/docker-settings/.docker_aliases'
 
 
 dkln() {
